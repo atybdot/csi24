@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "$components/*" : ["./src/ui/components/*"],
+            "$layouts/*" : ["./src/ui/layout/*"],
+            "$pages/*" : ["./src/ui/pages/*"],
+            "$ui/*" : ["./src/ui/*"],
+
+            "$utils/*" : ["./src/utils/*"],
+            "$lib/*" : ["./src/lib/*"],
+
+            "$router/*" : ["./src/router/*"],
+
+            "$assets/*" : ["./src/assets/*"],
+
+            "$styles/*" : ["./src/styles/*"]
+        }
+    }
+}

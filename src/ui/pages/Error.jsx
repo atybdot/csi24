@@ -1,9 +1,9 @@
 import React from 'react'
 
-function ErrorNav() {
+function ErrorPage() {
   return (
     <div>Error</div>
   )
 }
 
-export default ErrorNav
+export default ErrorPage
