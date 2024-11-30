@@ -11,6 +11,22 @@ const routes = createBrowserRouter([
             {
                 path : "",
                 element : <Home/>
+            },
+            {
+                path : "events/",
+                element: <p>events</p>
+            },
+            {
+                path : "gallery",
+                element : <p>gallery</p>
+            },
+            {
+                path : "faculty",
+                element : <p>faculty</p>
+            },
+            {
+                path : "about-us",
+                element : <p>about-us</p>
             }
         ]
     }

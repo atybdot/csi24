@@ -3,23 +3,28 @@ import { LuHome } from "react-icons/lu";
 const navList = [
     {
         name : "home",
-        icon : <LuHome/>
+        icon : <LuHome/>,
+        link : "/"
     },
     {
         name : "Events",
-        icon : <LuHome/>
+        icon : <LuHome/>,
+        link : "/events"
     },
     {
         name : "Gallery",
-        icon : <LuHome/>
+        icon : <LuHome/>,
+        link : "/gallery"
     },
     {
         name : "Faculty",
-        icon : <LuHome/>
+        icon : <LuHome/>,
+        link : "/faculty"
     },
     {
         name : "About Us",
-        icon : <LuHome/>
+        icon : <LuHome/>,
+        link : "/about-us"
     }
 ]
 export default navList

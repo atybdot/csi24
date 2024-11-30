@@ -1,30 +1,31 @@
-"use client";
-import { cn } from "$lib/cn";
-import { Link } from "react-router-dom";
+"use client"
+import { cn } from "$lib/cn"
+import { NavLink } from "react-router-dom"
 
 const FloatingNav = ({ navItems, className }) => {
   return (
     <section
       id="navbar"
       className={cn(
-        "flex w-[60vw] fixed top-10 inset-x-0 mx-auto border border-transparent dark:border-white/[0.2] z-[5000] py-2  items-center justify-center space-x-4 rounded-sm backdrop-blur-sm",
-        className
+        "flex w-fit px-10 fixed top-10 inset-x-0 mx-auto border border-black-russian-50/20 bg-black-russian/20 z-[5000] py-2  items-center justify-center space-x-4 rounded-sm backdrop-blur-sm",
+        className,
       )}
     >
       {navItems.map((navItem, idx) => (
-        <Link
+        <NavLink
           key={`link=${idx}`}
-          href={navItem?.link}
-          className={cn(
-            "relative dark:text-neutral-50 items-center flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500"
-          )}
+          to={navItem?.link}
+          
+          className={({isActive})=>{
+            return cn("relative items-center flex space-x-1 text-black-russian-50/50 hover:text-black-russian-50 transition-colors duration-300 ease-in-out ",isActive ? "text-black-russian-50" : "")
+          }}
         >
           <span className="block sm:hidden">{navItem?.icon}</span>
           <span className="hidden sm:block text-md">{navItem?.name}</span>
-        </Link>
+        </NavLink>
       ))}
     </section>
-  );
-};
+  )
+}
 
-export default FloatingNav;
+export default FloatingNav

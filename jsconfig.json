@@ -12,9 +12,7 @@
 
             "$router/*" : ["./src/router/*"],
 
-            "$assets/*" : ["./src/assets/*"],
-
-            "$styles/*" : ["./src/styles/*"]
+            "$assets/*" : ["./src/assets/*"]
         }
     }
 }

@@ -1,11 +1,12 @@
 /** @type {import('tailwindcss').Config} */
-import {fontFamily} from 'tailwindcss/defaultTheme'
+import { fontFamily } from "tailwindcss/defaultTheme";
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    fontFamily : {
-      sans : ["Poppins",...fontFamily.sans],
-      mono : ["Geist Mono",...fontFamily.mono]
+    fontFamily: {
+      sans: ["Poppins", ...fontFamily.sans],
+      mono: ["Geist Mono", ...fontFamily.mono],
+      xanh : ["Xanh Mono",...fontFamily.mono]
     },
     extend: {
       colors: {
@@ -23,6 +24,10 @@ export default {
           900: "#00002E",
           950: "#00001A",
         },
+      },
+      backgroundImage: {
+        radialGr:
+          "radial-gradient(circle, rgba(97,97,255,1) 0%, rgba(0,0,26,1) 35%)",
       },
     },
   },

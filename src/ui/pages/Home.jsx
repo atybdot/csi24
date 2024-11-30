@@ -1,13 +1,13 @@
 import React from 'react'
-import SplineComp from '$components/SplineComp'
+
 import Hero from '$ui/blocks/Hero'
-import Numbers from '$ui/blocks/Numbers'
+import Stats from '$ui/blocks/Stats'
 
 function Home() {
   return (
     <>
     <Hero/>
-    <Numbers/>
+    <Stats/>
     </>
 
   )

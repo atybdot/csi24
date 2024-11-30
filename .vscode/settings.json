@@ -1,0 +1,16 @@
+{
+    "files.autoSave": "afterDelay",
+    "files.autoSaveWhenNoErrors": true,
+    "files.autoSaveDelay": 500,
+    "editor.defaultFormatter": "biomejs.biome",
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "tailwind-class-sorter.classRegex": {
+    "rescript": [
+      "className\\w*?=\\w*(\"[\\s\\S]+?\")|className\\w*?=\\w*?\\{([\\s\\S]+?)\\}",
+      "\"(.+?)\""
+    ]
+  }
+    
+}
