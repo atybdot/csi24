@@ -1,1 +1,1 @@
-# Computer Society Of India x TSIG  | MJCET
+# Computer Society Of India | MJCET
