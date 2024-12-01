@@ -33,7 +33,9 @@
       },
       "correctness": {
         "recommended": true,
-        "useExhaustiveDependencies": "info"
+        "useExhaustiveDependencies": "info",
+        "noUnknownFunction" : "error",
+        "noUndeclaredVariables" : "error"
       },
       "complexity": {
         "recommended": true
@@ -41,7 +43,7 @@
       "suspicious": {
         "recommended": true,
         "noAssignInExpressions": "off",
-        "noArrayIndexKey" : "off"
+        "noArrayIndexKey": "off"
       }
     }
   },
