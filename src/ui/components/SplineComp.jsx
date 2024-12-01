@@ -2,7 +2,7 @@ import { useState } from "react"
 
 import { AnimatePresence } from "motion/react"
 import { useSplineLoader } from "$hooks/useSplineLoader"
-import LoadingScreen from "$components/LoadingScreen"
+import LoadingScreen from "$pages/LoadingPage"
 import { lazy } from "react"
 import { Suspense } from "react"
 
