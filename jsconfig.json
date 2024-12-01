@@ -7,8 +7,10 @@
             "$pages/*" : ["./src/ui/pages/*"],
             "$ui/*" : ["./src/ui/*"],
 
-            "$utils/*" : ["./src/utils/*"],
+            "$hooks/*" : ["./src/hooks/*"],
             "$lib/*" : ["./src/lib/*"],
+            "$stores/*" : ["./src/stores/*"],
+            "$utils/*" : ["./src/utils/*"],
 
             "$router/*" : ["./src/router/*"],
 
