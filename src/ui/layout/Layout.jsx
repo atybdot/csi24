@@ -1,20 +1,22 @@
-import React from "react";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
-import { Outlet } from "react-router-dom";
-import { LuX } from "react-icons/lu";
+import React from "react"
 
-import navList from "../../utils/NavList";
-import SplineComp from "../components/SplineComp";
+import { Outlet } from "react-router-dom"
+
+import Navbar from "$components/Navbar"
+import navList from "$utils/NavList"
+import Footer from "$components/Footer"
+import LoadingScreen from "$components/LoadingScreen"
+import { useSplineLoader } from "$hooks/useSplineLoader"
 
 function Layout() {
+
   return (
     <section className="grid grid-rows-[1fr_auto_auto] min-h-svh">
       <Navbar navItems={navList} className={"rounded-[7px] uppercase"} />
       <Outlet />
       <Footer />
     </section>
-  );
+  )
 }
 
-export default Layout;
+export default Layout

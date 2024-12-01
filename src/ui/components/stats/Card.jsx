@@ -1,4 +1,4 @@
-import { cn } from "$lib/cn"
+import { cn } from "$utils/cn"
 import React from "react"
 import Counter from "./TextTicker"
 
@@ -26,7 +26,7 @@ function StatsCard({ text, number, odd, classname = "" }) {
         )}
       >
         {/* divider */}
-        <div className="-translate-y-2/3 -translate-x-1/2 absolute top-0 left-1/2 z-20 h-2 w-2/3 bg-[#131313] px-3"/>
+        <div className="-translate-y-2/3 -translate-x-1/2 absolute top-0 left-1/2 z-20 h-2 w-2/3 bg-[#131313] px-3" />
 
         {odd ? text : <Counter value={Number(number)} />}
       </div>
