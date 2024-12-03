@@ -92,7 +92,7 @@ export const Carousel = ({
               ease: "easeOut",
             },
           }}
-          className="text-gray-600 flex items-center justify-center rounded-3xl text-center text-xl font-bold lg:text-3xl h-40 min-w-[80%] sm:min-w-[60%] md:min-w-[30%] lg:min-w-[20%] ml-10 lg:ml-32">
+          className="text-white flex items-center justify-center rounded-3xl text-center text-xl font-bold lg:text-3xl h-40 min-w-[80%] sm:min-w-[60%] md:min-w-[30%] lg:min-w-[20%] ml-10 lg:ml-32">
           Up-Coming Events
         </motion.div>
 

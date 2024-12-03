@@ -1,24 +1,50 @@
 import React from "react";
 import { Carousel, Card } from "../components/stats/carousel";
+import items from "$utils/UpcomEvList";
+import Masonry from "react-masonry-css";
 
 export default function Events() {
   const cards = data.map((card, index) => (
     <Card key={card.src} card={card} index={index} layout={true} />
   ));
 
+  const breakpointColumns = {
+    default: 3, // 4 columns for large screens
+    1100: 3,    // 3 columns for medium screens
+    700: 2,     // 2 columns for small screens
+    500: 1,     // 1 column for very small screens
+  };
+
   return (
-    (<div className="bg-gradient-to-t ">
-        <div className="w-full h-[90vh] py-32 bg-black-russian-100">
-            <h2
-                className="max-w-7xl pl-4 mx-auto text-xl md:text-5xl font-bold text-gray-600 font-sans">
-                Events
-            </h2>
-            <Carousel items={cards} />
-        </div>
-        <div className="w-full h-screen py-32 bg-gradient-to-t from-black-russian-950 to-black-russian-300">
-            <Carousel items={cards} />
-        </div>
-    </div>)
+      (<div className="w-full h-screen">
+          <div className="w-full h-[90vh] py-32 bg-gradient-to-tr from-teal-700 to-fuchsia-950">
+              <h2
+                  className="max-w-7xl pl-4 mx-auto text-xl md:text-5xl font-bold text-white font-sans">
+                  Events
+              </h2>
+              <Carousel items={cards} />
+          </div>
+          <div className="w-full py-32 bg-black-russian-900">
+          <Masonry
+            breakpointCols={breakpointColumns}
+            className="flex -ml-4 w-auto"
+            columnClassName="pl-4">
+            {items.map((item, index) => (
+              <>
+                <div key={`spacer-${index}`} className={`h-${index % 2 === 0 ? '20' : '32'}`} />
+                <div key={index} className="mb-4 flex justify-center">
+                  <img
+                    src={item.img}
+                    alt={`Masonry item ${index}`}
+                    className="w-[75%] rounded-lg shadow-lg object-cover"
+                  />
+                </div>
+              </>
+            ))}
+          </Masonry>
+
+          </div>
+      </div>)
   );
 }
 
