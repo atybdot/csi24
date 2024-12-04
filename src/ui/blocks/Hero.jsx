@@ -10,7 +10,7 @@ function Hero() {
       id="hero-section"
     >
       <SplineComp />
-      <div className="absolute bottom-[180px] z-40 left-1/2 -translate-x-1/2 grid sm:grid-cols-2 gap-2 place-content-center">
+      <div className="absolute bottom-[180px] left-1/2 -translate-x-1/2 grid sm:grid-cols-2 gap-2 place-content-center">
         <Btn text={"Register Now"} classname={"text-black-russian-50"} />
         <Btn text={"More Info"} classname={"text-black-russian-50/80"} />
       </div>
