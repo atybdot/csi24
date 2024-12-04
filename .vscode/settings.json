@@ -3,14 +3,23 @@
     "files.autoSaveWhenNoErrors": true,
     "files.autoSaveDelay": 500,
     "editor.defaultFormatter": "biomejs.biome",
-    "[javascriptreact]": {
-        "editor.defaultFormatter": "biomejs.biome"
-    },
-    "tailwind-class-sorter.classRegex": {
-    "rescript": [
-      "className\\w*?=\\w*(\"[\\s\\S]+?\")|className\\w*?=\\w*?\\{([\\s\\S]+?)\\}",
-      "\"(.+?)\""
-    ]
-  }
+  "[javascript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[html]":{
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
     
 }

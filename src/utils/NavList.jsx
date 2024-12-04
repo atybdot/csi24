@@ -1,30 +1,36 @@
-import { LuHome } from "react-icons/lu";
+import {
+  PiCalendarDot,
+  PiHouseLine,
+  PiImage,
+  PiInfo,
+  PiUsersThree,
+} from "react-icons/pi"
 
 const navList = [
-    {
-        name : "home",
-        icon : <LuHome/>,
-        link : "/"
-    },
-    {
-        name : "Events",
-        icon : <LuHome/>,
-        link : "/events"
-    },
-    {
-        name : "Gallery",
-        icon : <LuHome/>,
-        link : "/gallery"
-    },
-    {
-        name : "Faculty",
-        icon : <LuHome/>,
-        link : "/faculty"
-    },
-    {
-        name : "About Us",
-        icon : <LuHome/>,
-        link : "/about-us"
-    }
+  {
+    name: "home",
+    icon: <PiHouseLine />,
+    link: "/",
+  },
+  {
+    name: "Events",
+    icon: <PiCalendarDot />,
+    link: "/events",
+  },
+  {
+    name: "Gallery",
+    icon: <PiImage />,
+    link: "/gallery",
+  },
+  {
+    name: "Faculty",
+    icon: <PiUsersThree />,
+    link: "#faculty",
+  },
+  {
+    name: "About Us",
+    icon: <PiInfo />,
+    link: "/about-us",
+  },
 ]
 export default navList
