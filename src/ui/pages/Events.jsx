@@ -1,5 +1,5 @@
 import React from "react"
-import { Carousel, Card } from "../components/stats/carousel"
+import { Carousel, Card } from "$components/stats/carousel"
 import items from "$utils/UpcomEvList"
 import Masonry from "react-masonry-css"
 

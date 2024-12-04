@@ -26,7 +26,7 @@ const Card = () => {
         </div>
       </StyledWrapper>
 
-      <div className="cards-container flex flex-row gap-12 justify-center">
+      <div className="cards-container flex flex-row flex-wrap gap-12 justify-center">
         <Card1 />
         <Card2 />
         <Card3 />
