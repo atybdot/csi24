@@ -1,47 +1,38 @@
-import React from 'react';
-import styled from 'styled-components';
-import zain from '$assets/faculty/Zain-sir.jpeg'
-import Card1 from './card-1'
-import Card2 from './card-2'
-import Card3 from './card-3'
-
+import React from "react"
+import styled from "styled-components"
+import zain from "$assets/faculty/Zain-sir.jpeg"
+import Card1 from "./card-1"
+import Card2 from "./card-2"
+import Card3 from "./card-3"
 
 const Card = () => {
   return (
     <>
-
-
-
-  
-    <StyledWrapper>
-      <div className='main flex items-center justify-center m-10 '>
-      <div className="card flex flex-col items-center justify-center  ">
-        <div className="card__border" />
-        <div className="main-content">
-          <div className="header">
-            <img src={zain} alt="zain" />
-          </div>
-          <div className="categories">
-            
+      <StyledWrapper>
+        <div className="main flex items-center justify-center m-10 ">
+          <div className="card flex flex-col items-center justify-center  ">
+            <div className="card__border" />
+            <div className="main-content">
+              <div className="header">
+                <img src={zain} alt="zain" />
+              </div>
+              <div className="categories"></div>
+            </div>
+            <div className="footer">
+              <h1 id="name">Mr. Zainuddin Naveed</h1>
+              <h2 id="designation">Professor, Dept. Of CSE</h2>
+            </div>
           </div>
         </div>
-        <div className="footer">
-          <h1 id="name">Mr. Zainuddin Naveed</h1>
-          <h2 id="designation">Professor, Dept. Of CSE</h2>
-        </div>
-      
-      </div>
-      </div>
-    </StyledWrapper>
+      </StyledWrapper>
 
-     
-    <div className="cards-container flex flex-row gap-12 justify-center">
+      <div className="cards-container flex flex-row gap-12 justify-center">
         <Card1 />
         <Card2 />
         <Card3 />
       </div>
     </>
-  );
+  )
 }
 
 const StyledWrapper = styled.div`
@@ -251,6 +242,6 @@ const StyledWrapper = styled.div`
     border: 0;
     border-radius: 9999px;
     box-shadow: inset 0 -2px 25px -4px var(--white);
-  }`;
+  }`
 
-export default Card;
+export default Card

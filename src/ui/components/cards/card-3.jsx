@@ -1,37 +1,33 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react"
+import styled from "styled-components"
 
-import maniza from '$assets/Faculty/manizamam.jpg'
+import maniza from "$assets/faculty/manizamam.jpg"
 
 const Card1 = () => {
   return (
     <StyledWrapper>
-      <div className='flex flex-row flex-wrap gap-10 items-center justify-center'>
-    
-      <div className="card " >
-        <div className="main-content">
-          <div className="header">
-            <img src={maniza} alt="maniza" />
+      <div className="flex flex-row flex-wrap gap-10 items-center justify-center">
+        <div className="card ">
+          <div className="main-content">
+            <div className="header">
+              <img src={maniza} alt="maniza" />
+            </div>
+            <div className="categories"></div>
           </div>
-          <div className="categories">
-            
+          <div className="footer">
+            <h1 id="name">Dr. Maniza Hijab</h1>
+            <h2 id="designation">Professor, Dept. Of CSE</h2>
+            <h2>
+              <i id="quote">
+                -The best way to lead is by example and inspire others to
+                greatness
+              </i>
+            </h2>
           </div>
         </div>
-        <div className="footer">
-          <h1 id="name">Dr. Maniza Hijab</h1>
-          <h2 id="designation">Professor, Dept. Of CSE</h2>
-          <h2><i id='quote'>-The best way to lead is by example and inspire others to greatness</i></h2>
-
-        </div>
-
       </div>
-
-      
-      </div>
-
-      
     </StyledWrapper>
-  );
+  )
 }
 
 const StyledWrapper = styled.div`
@@ -122,6 +118,6 @@ color: #ffffff;
     
   .card:hover{
     transform: scale(1.05);
-  }`;
+  }`
 
-export default Card1;
+export default Card1

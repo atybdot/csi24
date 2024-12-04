@@ -1,38 +1,32 @@
-import React from 'react';
-import styled from 'styled-components';
-import sridevi from '$assets/Faculty/sridevimam.jpg'
-
+import React from "react"
+import styled from "styled-components"
+import sridevi from "$assets/faculty/sridevimam.jpg"
 
 const Card_1 = () => {
   return (
     <StyledWrapper>
-      <div className='flex flex-row flex-wrap gap-10 items-center justify-center'>
-      <div className="card " >
-        <div className="main-content">
-          <div className="header">
-            <img src={sridevi} alt="sridevi" />
+      <div className="flex flex-row flex-wrap gap-10 items-center justify-center">
+        <div className="card ">
+          <div className="main-content">
+            <div className="header">
+              <img src={sridevi} alt="sridevi" />
+            </div>
+            <div className="categories"/>
           </div>
-          <div className="categories">
-            
+          <div className="footer">
+            <h1 id="name">Dr. Sridevi Kotari</h1>
+            <h2 id="designation">Professor, Dept. Of CSE</h2>
+            <h2>
+              <i id="quote">
+                -True mentorship is helping others discover their own wisdom and
+                potential
+              </i>
+            </h2>
           </div>
         </div>
-        <div className="footer">
-          <h1 id="name">Dr. Sridevi Kotari</h1>
-          <h2 id="designation">Professor, Dept. Of CSE</h2>
-          <h2><i id='quote'>-True mentorship is helping others discover their own wisdom and potential</i></h2>  
-
-        </div>
-
       </div>
-
-   
-
-      
-      </div>
-
-      
     </StyledWrapper>
-  );
+  )
 }
 
 const StyledWrapper = styled.div`
@@ -125,6 +119,6 @@ color: #ffffff;
     
   .card:hover{
     transform: scale(1.05);
-  }`;
+  }`
 
-export default Card_1;
+export default Card_1

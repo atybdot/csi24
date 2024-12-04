@@ -1,42 +1,33 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react"
+import styled from "styled-components"
 
-import shabber from '$assets/faculty/1677306910shabbir.jpg'
-
+import shabber from "$assets/faculty/1677306910shabbir.jpg"
 
 const Card1 = () => {
   return (
     <StyledWrapper>
-      <div className='flex flex-row flex-wrap gap-10 items-center justify-center'>
-    
-
-      <div className="card" >
-        <div className="main-content">
-          <div className="header">
-            <img src={shabber} alt="sridevi" />
+      <div className="flex flex-row flex-wrap gap-10 items-center justify-center">
+        <div className="card">
+          <div className="main-content">
+            <div className="header">
+              <img src={shabber} alt="sridevi" />
+            </div>
+            <div className="categories"></div>
           </div>
-          <div className="categories">
-            
+          <div className="footer">
+            <h1 id="name">Dr. Syed Shabbeer Ahmad</h1>
+            <h2 id="designation">Professor, Dept. Of CSE</h2>
+            <h2 id="quote">
+              <i>
+                -Success in education is built on collaboration, guidance, and
+                shared vision
+              </i>
+            </h2>
           </div>
         </div>
-        <div className="footer">
-          <h1 id="name">Dr. Syed Shabbeer Ahmad</h1>
-          <h2 id="designation">Professor, Dept. Of CSE</h2>
-          <h2 id="quote"><i>-Success in education is built on collaboration, guidance, and shared vision</i></h2>
-        </div>
-        
-
       </div>
-
-
- 
-
-
-      </div>
-
-      
     </StyledWrapper>
-  );
+  )
 }
 
 const StyledWrapper = styled.div`
@@ -127,6 +118,6 @@ color: #ffffff;
     
   .card:hover{
     transform: scale(1.05);
-  }`;
+  }`
 
-export default Card1;
+export default Card1
