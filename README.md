@@ -18,11 +18,11 @@
 - [vite](https://vite.dev) - Next Generation Frontend Tooling
 - [biomejs](https://biomejs.dev/) - A performant formatter, linter, and more for JavaScript, TypeScript, JSX, and JSON
 
-Made by:
+Made by:  
 [![@MIbrahim-Nasir](https://img.shields.io/badge/ibrahim_nasir-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MIbrahim-Nasir) [![@atybdot](https://img.shields.io/badge/ateeb_ansari-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/atybdot) [![@AaqilBaig](https://img.shields.io/badge/aaqil_baig-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AaqilBaig) [![@SyedMuqeem03](https://img.shields.io/badge/syed_muqeem-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SyedMuqeem03)
 
 
-Follow Computer Society of India - MJCET : 
+Follow Computer Society of India - MJCET :  
 [![Instagram](https://img.shields.io/badge/instagram-FF0069?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/csi_mjcet) [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/csi-mjcet/) [![github](https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/csi-mj) [![medium](https://img.shields.io/badge/medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@csi_mjcet/)
   
 [![vercel](https://img.shields.io/badge/deployed_on_vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.app)
