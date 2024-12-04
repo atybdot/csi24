@@ -1,15 +1,19 @@
-import { useState } from "react"
+import { useState,lazy,Suspense,useEffect } from "react"
 
 import { AnimatePresence } from "motion/react"
 import { useSplineLoader } from "$hooks/useSplineLoader"
 import LoadingScreen from "$pages/LoadingPage"
-import { lazy } from "react"
-import { Suspense } from "react"
+
+import { setScrollBehavior } from "$utils/setScrollBehavior"
 
 const Spline = lazy(() => import("@splinetool/react-spline"))
 export default function SplineScene() {
   const [isAnimating, setIsAnimating] = useState(true)
-  const { isLoading, onLoad } = useSplineLoader()
+  const { isLoading, onLoad } = useSplineLoader();
+
+  useEffect(()=>{
+    setScrollBehavior(isLoading,isAnimating)
+  },[isAnimating,isLoading])
 
   const handleLoad = () => {
     onLoad()
