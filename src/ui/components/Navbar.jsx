@@ -8,7 +8,7 @@ const FloatingNav = ({ navItems, className }) => {
     <section
       id="navbar"
       className={cn(
-        "flex w-fit px-10 fixed top-10 inset-x-0 mx-auto border border-black-russian-50/20 bg-black-russian/20 z-[1] py-2  items-center justify-center space-x-4 rounded-sm backdrop-blur-sm",
+        "flex w-fit px-10 fixed top-10 inset-x-0 mx-auto border border-black-russian-50/20 bg-black-russian/20 z-[20] py-2  items-center justify-center space-x-4 rounded-sm backdrop-blur-sm",
         className,
       )}
     >
