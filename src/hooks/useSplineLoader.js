@@ -8,7 +8,9 @@ export function useSplineLoader() {
   const setProgress = useSetAtom(progressAtom)
   const onLoad = () => {
     setProgress(100)
-    setIsLoading(false)
+    setTimeout(() => {
+      setIsLoading(false)
+    }, 1000);
   }
   return { isLoading, onLoad }
 }
