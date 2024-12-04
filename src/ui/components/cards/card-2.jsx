@@ -12,7 +12,7 @@ const Card1 = () => {
             <div className="header">
               <img src={shabber} alt="sridevi" />
             </div>
-            <div className="categories"></div>
+            <div className="categories"/>
           </div>
           <div className="footer">
             <h1 id="name">Dr. Syed Shabbeer Ahmad</h1>

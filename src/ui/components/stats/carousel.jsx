@@ -10,8 +10,8 @@ import {
   IconArrowNarrowRight,
   IconX,
 } from "@tabler/icons-react";
-import { cn } from "$lib/cn";
-import { AnimatePresence, motion } from "framer-motion";
+import { cn } from "$utils/cn";
+import { AnimatePresence, motion } from "motion/react";
 import { useOutsideClick } from "$utils/hooks/use-outside-click";
 
 export const CarouselContext = createContext({
@@ -99,7 +99,7 @@ export const Carousel = ({
             <div
               className={cn(
                 "absolute right-0 z-[1000] h-auto w-[5%] overflow-hidden bg-gradient-to-l"
-              )}></div>
+              )}/>
       
             <div
               className={cn(
@@ -122,7 +122,7 @@ export const Carousel = ({
                       once: true,
                     },
                   }}
-                  key={"card" + index}
+                  key={`card${index}`}
                   className="last:pr-[5%] md:last:pr-[33%] rounded-3xl">
                   {item}
                 </motion.div>
@@ -131,12 +131,14 @@ export const Carousel = ({
           </div>
           {/* Updated buttons */}
           <button
+          type="button"
             className="absolute top-1/2 left-4 z-40 h-10 w-10 transform -translate-y-1/2 rounded-full bg-gray-100 flex items-center justify-center disabled:opacity-50"
             onClick={scrollLeft}
             disabled={!canScrollLeft}>
             <IconArrowNarrowLeft className="h-6 w-6 text-gray-500" />
           </button>
           <button
+          type="button"
             className="absolute top-1/2 right-4 z-40 h-10 w-10 transform -translate-y-1/2 rounded-full bg-gray-100 flex items-center justify-center disabled:opacity-50"
             onClick={scrollRight}
             disabled={!canScrollRight}>
@@ -258,6 +260,7 @@ export const BlurImage = ({
 }) => {
   const [isLoading, setLoading] = useState(true);
   return (
+    // biome-ignore lint/a11y/useAltText: <explanation>
     (<img
         className={cn(
           "transition duration-300",

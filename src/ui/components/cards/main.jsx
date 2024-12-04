@@ -16,7 +16,7 @@ const Card = () => {
               <div className="header">
                 <img src={zain} alt="zain" />
               </div>
-              <div className="categories"></div>
+              <div className="categories"/>
             </div>
             <div className="footer">
               <h1 id="name">Mr. Zainuddin Naveed</h1>

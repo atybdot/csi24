@@ -2,7 +2,7 @@ import {createBrowserRouter} from 'react-router-dom'
 import Events from '$pages/Events.jsx'
 import Gallery from '$pages/Gallery.jsx'
 import Home from '$pages/Home.jsx'
-import Layout from '$layout/Layout.jsx'
+import Layout from '$layouts/Layout.jsx'
 import ErrorPage from '$pages/Error.jsx'
 const routes = createBrowserRouter([
     {
