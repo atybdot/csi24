@@ -21,10 +21,6 @@ const routes = createBrowserRouter([
                 element : <p>gallery</p>
             },
             {
-                path : "faculty",
-                element : <p>faculty</p>
-            },
-            {
                 path : "about-us",
                 element : <p>about-us</p>
             }
