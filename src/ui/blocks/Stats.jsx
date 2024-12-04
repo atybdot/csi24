@@ -5,7 +5,7 @@ import React from "react"
 
 function Stats() {
   return (
-    <section className="min-h-svh" id="stats-section">
+    <section id="stats-section">
       <div className="grid h-full w-full items-center gap-3 p-8 text-[#d9d4fa] md:grid-cols-2 lg:grid-cols-3">
         {statsList.map((item, index) => {
           let classes = ""
