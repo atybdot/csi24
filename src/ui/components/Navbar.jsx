@@ -1,6 +1,8 @@
 import { cn } from "$utils/cn"
 import { NavLink } from "react-router-dom"
 
+import logoSrc from '$assets/csi-logo.png'
+
 const FloatingNav = ({ navItems, className }) => {
   return (
     <section
@@ -10,6 +12,7 @@ const FloatingNav = ({ navItems, className }) => {
         className,
       )}
     >
+      <img src={logoSrc} alt="" className="w-8" />
       {navItems.map((navItem, idx) => (
         <NavLink
           key={`link=${idx}`}
