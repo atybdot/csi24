@@ -1,7 +1,7 @@
-import image1 from "C:/Users/ABDUL_RUB/Pictures/demo/Copy of IMG_0461.jpg"
-import image2 from "C:/Users/ABDUL_RUB/Pictures/demo/Copy of IMG_0474.jpg"
-import image3 from "C:/Users/ABDUL_RUB/Pictures/demo/Copy of IMG_0509.jpg"
-import image4 from "C:/Users/ABDUL_RUB/Pictures/demo/Copy of IMG_0580.jpg"
+import image1 from "$assets/Gallery/Copy of IMG_0461.jpg"
+import image2 from "$assets/Gallery/Copy of IMG_0474.jpg"
+import image3 from "$assets/Gallery/Copy of IMG_0509.jpg"
+import image4 from "$assets/Gallery/Copy of IMG_0580.jpg"
 
 const items = [
     {
