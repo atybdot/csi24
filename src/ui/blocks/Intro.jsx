@@ -1,9 +1,10 @@
 import React from "react"
 import logoSrc from "$assets/csi-logo.png"
+import bgSrc from '$assets/imagesCollage.png'
 function Intro() {
   return (
     <section className="w-full relative h-svh" id="intro">
-      <div className="absolute top-0 left-0 w-full h-full" id="intro-img" />
+      <img className="absolute top-0 left-0 w-full h-full" id="intro-img" src={bgSrc} />
       <div
         className="absolute top-0 left-0 w-full h-full"
         id="intro-gradient"
