@@ -14,7 +14,7 @@ const Card = () => {
             <div className="card__border" />
             <div className="main-content">
               <div className="header">
-                <img src={zain} alt="zain" />
+                <img src={zain} alt="zain"/>
               </div>
               <div className="categories"/>
             </div>
