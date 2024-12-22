@@ -5,16 +5,16 @@
 
 ## Technologies Used
 
-[![React](https://img.shields.io/badge/React_--_JavaScript_library_for_building_user_interfaces-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)  
-[![React Router](https://img.shields.io/badge/React_Router_--_Declarative_routing_for_React_applications-CA4245?style=for-the-badge&logo=react-router&logoColor=white)](https://reactrouter.com/)  
-[![Jotai](https://img.shields.io/badge/Jotai_--_Primitive_and_flexible_state_management_for_React-000000?style=for-the-badge&logo=jotai&logoColor=white)](https://jotai.org/)  
-[![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS_--_A_utility_--_first_CSS_framework-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)  
-[![Framer Motion](https://img.shields.io/badge/Motion_--_A_modern_animation_library_for_React-0055FF?style=for-the-badge&logo=framer&logoColor=white)](https://motion.dev/)  
-[![styled components](https://img.shields.io/badge/styled_components_--_Visual_primitives_for_the_components_age-DB7093?style=for-the-badge&logo=styledcomponents&logoColor=black)](https://styled-components.com/)  
-[![phosphoricons](https://img.shields.io/badge/phosphor_icons_--_Flexible_icon_family-3C402B?style=for-the-badge&logo=phosphoricons&logoColor=white)](https://phosphoricons.com/)  
-[![git](https://img.shields.io/badge/git_--_Distributed_version_control_system-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)   
-[![vite](https://img.shields.io/badge/vite_--_Next_Generation_Frontend_Tooling-ffd52d?style=for-the-badge&logo=vite&logoColor=black)](https://vite.dev)  
-[![biomejs](https://img.shields.io/badge/biome_--_A_performant_formatter,_linter,_and_more-60A5FA?style=for-the-badge&logo=biome&logoColor=white)](https://biomejs.dev/)  
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/) 
+[![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)](https://reactrouter.com/) 
+[![Jotai](https://img.shields.io/badge/Jotai-000000?style=for-the-badge&logo=jotai&logoColor=white)](https://jotai.org/)  
+[![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/) 
+[![Framer Motion](https://img.shields.io/badge/Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)](https://motion.dev/)  
+[![styled components](https://img.shields.io/badge/styled_components-DB7093?style=for-the-badge&logo=styledcomponents&logoColor=black)](https://styled-components.com/) 
+[![phosphoricons](https://img.shields.io/badge/phosphor_icons-3C402B?style=for-the-badge&logo=phosphoricons&logoColor=white)](https://phosphoricons.com/)  
+[![git](https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/) 
+[![vite](https://img.shields.io/badge/vite-ffd52d?style=for-the-badge&logo=vite&logoColor=black)](https://vite.dev) 
+[![biomejs](https://img.shields.io/badge/biome-60A5FA?style=for-the-badge&logo=biome&logoColor=white)](https://biomejs.dev/)  
 
 ### Follow Computer Society of India - MJCET :  
 [![Instagram](https://img.shields.io/badge/instagram-FF0069?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/csi_mjcet) [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/csi-mjcet/) [![github](https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/csi-mj) [![medium](https://img.shields.io/badge/medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@csi_mjcet/)  
